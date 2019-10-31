@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
    // console.log(titulos);
 
 
+   let pop_up = document.getElementById("contactenos_pop_up");
+   let pop_up_visible = false;
 
     window.onscroll = function () {
 
@@ -41,6 +43,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
             console.log("onscroll 3");
+
+
+            if(pop_up_visible == false) {
+
+
+            
+
+            }
+
+        
 
         }
 

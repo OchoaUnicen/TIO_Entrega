@@ -112,6 +112,50 @@ h3 {
 
 }
 
+.pop_up-contactenos {
+
+
+   
+   
+    color: black;
+    background-color: grey;
+
+    margin: auto;
+    /* width: 50%; */
+    
+    padding: 10px;
+}
+
+
+.boton_cerrar_popup {
+
+    float:right;
+
+
+}
+
+#registro_sombreado {
+
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+ 
+ }
+
+ #contactenos_pop_up {
+
+    border: solid black;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    width: 500px; 
+    height: 300px;
+    z-index: 10;
+    
+ }
+
 
 
 
