@@ -57,7 +57,24 @@ body::-webkit-scrollbar {
     background-size: cover;
 }
 
-//imgs
+.background-img1 {
+    background-image: url("../img/bgimg1.jpg");
+    min-height: 100%;
+}
+
+.background-img2 {
+    background-image: url("../img/bgimg2.jpg");
+    min-height: 400px;
+}
+
+.background-img3 {
+    background-image: url("../img/bgimg3.jpg");
+    min-height: 400px;
+}
+.background-img4 {
+    background-image: url("../img/bgimg4.jpg");
+    min-height: 400px;
+}
 
 .caption {
     position: absolute;
