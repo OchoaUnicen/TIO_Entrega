@@ -113,3 +113,13 @@ h3 {
 }
 
 
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .background-img-1, .background-img-2, .background-img-3, .background-img4 {
+        background-attachment: scroll;
+    }
+}
