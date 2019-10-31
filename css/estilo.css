@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
     text-align: justify;
 }
 
-.background-img1, .background-img2, .background-img3, .background-img4 {
+.background-img1, .background-img2, .background-img3, .background-img4, .background-img5, .background-img6,  .background-img7, .background-img8  {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -75,6 +75,24 @@ body::-webkit-scrollbar {
     background-image: url("../img/bgimg4.jpg");
     min-height: 400px;
 }
+
+.background-img5 {
+    background-image: url("../img/bgimg5.jpg");
+    min-height: 400px;
+}
+.background-img6 {
+    background-image: url("../img/bgimg6.jpg");
+    min-height: 400px;
+}
+.background-img7 {
+    background-image: url("../img/bgimg7.png");
+    min-height: 400px;
+}
+.background-img8 {
+    background-image: url("../img/bgimg8.jpg");
+    min-height: 400px;
+}
+
 
 .caption {
     position: absolute;
@@ -119,7 +137,7 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .background-img-1, .background-img-2, .background-img-3, .background-img4 {
+    .background-img-1, .background-img-2, .background-img-3, .background-img4, .background-img5, .background-img6, .background-img7, .background-img8 {
         background-attachment: scroll;
     }
 }
